@@ -19,6 +19,11 @@ class PagesController extends Controller
     	return view('templates', ['pageName' => $name]);
     }
 
+    public function home () {
+        $this->setBlade();
+        return view('templates', ['pageName' => 'index']);
+    }
+
     private function setBlade(){
         Blade::setEscapedContentTags('[[[', ']]]');
         Blade::setContentTags('[[', ']]');

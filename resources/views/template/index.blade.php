@@ -27,7 +27,7 @@
                     </button>
 
                     <a class="navbar-brand" href="index.html">
-                    	<h1><img src="images/logo.png" alt="logo"></h1>
+                    	<h1><img src="[[URL::asset('images/logo.png')]]" alt="logo"></h1>
                     </a>
                     
                 </div>
@@ -91,11 +91,11 @@
                         <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
                         <a href="#" class="btn btn-common">SIGN UP</a>
                     </div>
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
-                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+                    <img src="[[URL::asset('images/home/slider/hill.png')]]" class="slider-hill" alt="slider image">
+                    <img src="[[URL::asset('images/home/slider/house.png')]]" class="slider-house" alt="slider image">
+                    <img src="[[URL::asset('images/home/slider/sun.png')]]" class="slider-sun" alt="slider image">
+                    <img src="[[URL::asset('images/home/slider/birds1.png')]]" class="slider-birds1" alt="slider image">
+                    <img src="[[URL::asset('images/home/slider/birds2.png')]]" class="slider-birds2" alt="slider image">
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/home/icon1.png" alt="">
+                            <img src="[[URL::asset('images/home/icon1.png')]]" alt="">
                         </div>
                         <h2>Incredibly Responsive</h2>
                         <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -118,7 +118,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/home/icon2.png" alt="">
+                            <img src="[[URL::asset('images/home/icon2.png')]]" alt="">
                         </div>
                         <h2>Superior Typography</h2>
                         <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -127,7 +127,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/home/icon3.png" alt="">
+                            <img src="[[URL::asset('images/home/icon3.png')]]" alt="">
                         </div>
                         <h2>Swift Page Builder</h2>
                         <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -164,7 +164,7 @@
             <div class="row">
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image1.png" class="img-responsive" alt="">
+                        <img src="[[URL::asset('images/home/image1.png')]]" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <h2>Experienced and Enthusiastic</h2>
@@ -177,12 +177,12 @@
                         <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
                     </div>
                     <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image2.png" class="img-responsive" alt="">
+                        <img src="[[URL::asset('images/home/image2.png')]]" class="img-responsive" alt="">
                     </div>
                 </div>
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image3.png" class="img-responsive" alt="">
+                        <img src="[[URL::asset('images/home/image3.png')]]" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <h2>Experienced and Enthusiastic</h2>
@@ -199,28 +199,28 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
+                        <p><img src="[[URL::asset('images/home/clients.png')]]" class="img-responsive" alt=""></p>
                         <h1 class="title">Happy Clients</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="[[URL::asset('images/home/client1.png')]]" class="img-responsive" alt=""></a>
                         </div>
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="[[URL::asset('images/home/client2.png')]]" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="[[URL::asset('images/home/client3.png')]]" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="[[URL::asset('images/home/client4.png')]]" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="[[URL::asset('images/home/client5.png')]]" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="[[URL::asset('images/home/client6.png')]]" class="img-responsive" alt=""></a>
                         </div>
                     </div>
                 </div>
